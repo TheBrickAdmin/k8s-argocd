@@ -9,12 +9,10 @@ cd methos_k8s
 # Create the cluster
 vagrant up
 # Wait for the cluster to deploy.
-# Most likely choose which network interface to use (both for control-plane and worker nodes)
 
 # Reboot the VMs
 vagrant reload
 # Wait for the VMs to come back up
-# Most likely choose which network interface to use (both for control-plane and worker nodes)
 
 # Connect to the control node (use a seperate terminal)
 vagrant ssh control-plane # Password: vagrant
@@ -44,7 +42,6 @@ vagrant ssh control-plane # Password: vagrant
 
 # Reboot the control node
 vagrant reload control-plane
-# Most likely choose which network interface to use
 
 # Wait for the control node to come back up
 vagrant ssh control-plane # Password: vagrant
