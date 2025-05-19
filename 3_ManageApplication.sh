@@ -49,3 +49,12 @@ vagrant ssh control-plane # Password: vagrant
     # Save and exit the file
     # Reapply the deployment
     kubectl apply -f worker-deployment.yaml
+
+    # Play around with the cluster
+    # When done, exit the control node
+    exit
+
+# Stop the cluster
+vagrant halt
+# Optionally destroy the cluster
+vagrant destroy
