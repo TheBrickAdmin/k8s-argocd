@@ -1,3 +1,5 @@
+# Ensure you have started your console with administrator privileges
+
 # Clone the repository
 git clone https://github.com/TheBrickAdmin/methos_k8s.git
 
