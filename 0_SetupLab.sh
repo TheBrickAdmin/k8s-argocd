@@ -1,5 +1,5 @@
 # Clone the repository
-git clone 
+git clone https://github.com/TheBrickAdmin/methos_k8s.git
 
 # Change to the directory
 cd methos_k8s
