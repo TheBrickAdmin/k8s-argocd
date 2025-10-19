@@ -137,7 +137,7 @@ You should see all nodes in "Ready" status and all system pods running.
 
 ## Troubleshooting
 
-- If VMs fail to start, ensure Hyper-V/VirtualBox is properly configured
+- If VMs fail to start, ensure Hyper-V is properly configured and Virtualization is enabled in your BIOS/UEFI settings.
 - If `kubeadm init` fails, check IP addresses and network connectivity
 - If worker nodes fail to join, verify the token, hash, and control plane IP are correct
 - If pods are not starting, check the network plugin installation
