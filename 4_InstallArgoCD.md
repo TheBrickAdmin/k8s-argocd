@@ -48,7 +48,7 @@ echo "Argo CD Server is accessible at https://${NODE_IP}:${ARGOCD_NODEPORT}"
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath='{.data.password}' | base64 -d; echo
 ```
 
-## Login Credentials
+**Login Credentials**
 - **Username:** `admin`
 - **Password:** Use the password retrieved from the command above
 
