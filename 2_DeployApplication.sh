@@ -17,7 +17,7 @@ vagrant ssh control-plane # Password: vagrant
     # Check the Status
     kubectl get pods
     kubectl get services
-    kubectl get endpoints
+    kubectl get endpointslices
 
     # Access the Application
     # Get the IP address of the control node (eth0)
