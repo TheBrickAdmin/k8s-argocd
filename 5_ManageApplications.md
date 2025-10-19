@@ -22,3 +22,6 @@ Since the voting app uses a NodePort service, you can access it using the contro
 Open a browser and navigate to http://<nodeport-ip>:31000 to show the voting page.
 Open another tab and navigate to http://<nodeport-ip>:31001 to show the results page.
 Cast your vote and see the result.
+
+# Cleanup
+Delete the application so it will not interfere with future challenges.
