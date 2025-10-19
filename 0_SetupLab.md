@@ -6,7 +6,7 @@ This guide walks through setting up a Kubernetes cluster using Vagrant and kubea
 - Windows machine with administrator privileges
 - Vagrant installed
 - Git installed
-- Hyper-V or VirtualBox available
+- Hyper-V
 
 ## Setup Steps
 
