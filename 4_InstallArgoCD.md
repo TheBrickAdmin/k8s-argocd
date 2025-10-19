@@ -42,7 +42,7 @@ echo "Argo CD Server is accessible at https://${NODE_IP}:${ARGOCD_NODEPORT}"
 
 **Note:** Be sure to accept the self-signed certificate when opening it in a web browser.
 
-### 5. Retrieve Admin Password
+### 5. Retrieve Admin Password to login
 ```bash
 # Retrieve the initial password for the admin user
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath='{.data.password}' | base64 -d; echo
